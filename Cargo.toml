@@ -1,0 +1,15 @@
+[package]
+name = "musiccast-rust"
+version = "0.0.1"
+authors = ["Brandon R. Beck <brandonrbeck101@gmail.com>"]
+
+[dependencies]
+clap = "*"
+eui48 = "*"
+ssdp = "*"
+serde_json = "*"
+serde = "*"
+serde_derive = "*"
+futures = "0.1"
+hyper = "0.11"
+tokio-core = "0.1"
